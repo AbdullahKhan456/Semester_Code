@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./real.js"></script>
+    <style>
+        #todos li button {
+            float: right;
+            color: royalblue;
+
+        }
+    </style>
+</head>
+<body>
+
+   <input type="text" id="newToDo" />
+   <button id="btnAdd">Add New Todo</button> 
+   <ul id="todos">
+    <li>Coffee <button onclick="handleDelete(event)">DELETE</button></li>
+    <li>Cake <button onclick="handleDelete(event)">DELETE</button></li>
+    <li>Tea <button onclick="handleDelete(event)">DELETE</button></li>
+   </ul>
+</body>
+</html>
